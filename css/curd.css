@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(../fonts/Raleway-Bold.ttf );
+}
+@font-face {
+    font-family: "Raleway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf );
+}
+@font-face {
+    font-family: "Raleway-black";
+    src: url(../fonts/Raleway-Black.ttf );
+}
+@font-face {
+    font-family:"Raleway-extrabold";
+    src: url(../fonts/Raleway-ExtraBold.ttf );
+}
+
+@import url(dashboard.css);
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../green1.jpg);
+    background-size: cover;
+    background-position: c;
+   
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding:  10px 20px ;
+    font-family: "Raleway-bold";
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 17px 7px 24px;
+
+}
+nav ul li a:hover{
+    color: white;
+    transition: 0.3s ease;
+    border-radius: 20px;
+    background: #018d6b;
+   
+   
+    
+}
+button{
+    border: none;
+    background: #018d6b;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+  
+}
+button:hover{
+    color: white;
+    background: #0a644e;
+    letter-spacing: 1px;
+   
+}

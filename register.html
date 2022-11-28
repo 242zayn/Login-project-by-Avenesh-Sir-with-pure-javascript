@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/curd.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+<style>
+    .reg{
+        text-align: center;
+    padding-top: 100px;
+    padding-right: 637px;
+    }
+    .contact_btn{
+    border: 1px solid white;
+    background: #191919;
+    padding: 4px 19px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+
+  
+}
+.contact_btn:hover{
+    color: white;
+    background: #0a644e;
+}
+    
+    
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <nav>
+            <h2 class="logo"  font-family: "Raleway-bold";><span style="color:white;">SARVESH</span> <span style="color:#018d6b ;">SHARMA</span> </h2>
+              <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="javascript:gotoPage('register','');" >Register</a></li>
+                <li><a href="javascript:gotoPage('login','');">Login</a></li>
+                <li><a href="javascript:gotoPage('contact','');">Contact</a></li>
+        </ul>
+            <button type="button">Welcome </button>
+        </nav>
+        <div class="reg">
+
+        <h1> <span style="color: white;">User</span> <span style="color:#018d6b ;">Register</span> <span style="color: white;">Here</span> </h1><br><br>
+    
+    <span id="alert" style="display:none;"></span>
+    <form method="post" onsubmit="registerUser(event);"  >
+
+        <span style="color: white;">  Name </span> : <input type="text" name="name" id="name" /> <br/><br>
+        <span style="color: white;">  Email </span>: <input type="email" name="email" id="email" /> <br/><br>
+        <span style="color: white;">   Password  </span> : <input type="password" name="password" id="password" /> <br/><br>
+        <span style="color: white;">   Mobile  </span>: <input type="number" name="mobile" id="mobile" /> <br/><br>
+
+        <input type="submit" value="Register" class="contact_btn">
+        <input type="reset" value="Clear" class="contact_btn">
+         
+    </form>
+</div>
+
+        </div>
+
+   
+
+    
+
+
+</body>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/function.js"></script>
+    <script type="text/javascript" src="./js/session.js"></script>
+    <script type="text/javascript" src="./js/state.js"></script>
+    <script type="text/javascript" src="./js/crud.js"></script>
+</html>
+
+
+
+
+
+
+

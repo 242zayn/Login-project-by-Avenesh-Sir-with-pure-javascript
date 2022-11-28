@@ -1,0 +1,22 @@
+.contact{
+   
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 637px;
+}
+
+.contact_btn{
+   border: 1px solid white;
+    padding: 4px 19px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+    background: #191919;
+
+  
+}
+.contact_btn:hover{
+    color: white;
+    background: #0a644e;
+}
